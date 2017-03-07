@@ -10,9 +10,10 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Germany Football Team</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
     </head>
     <body>
-        <h1>Germany Football Team</h1>
+        <h1><u>Germany Football Team</u></h1>
         <a href="read">View Current Squad Database</a>
     </body>
 </html>

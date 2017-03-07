@@ -9,13 +9,16 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Germany Football Team</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
     </head>
     
     <% String table = (String) request.getAttribute("table"); %>
     
     <body>
-        <h1>Germany Football Team Current Squad</h1>
+        <h1><u>Germany Football Team Current Squad</u></h1>
         <%= table %>
+        <br>
+        <a href="index.jsp">previous page</a>
     </body>
 </html>
